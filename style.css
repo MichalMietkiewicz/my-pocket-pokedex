@@ -1,0 +1,130 @@
+body{
+	background-color: #e0ffdb;
+}
+h1{
+	font-family:  'Griffy', cursive;
+	color: #ffffff;
+	text-align: center;
+	color: #000;
+	font-size: 50px;
+}
+.cl1{
+	width: 100%;
+	height: 150px;
+	background-color: #ffec21;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+.cl2{
+	
+	width: 100%;
+	height: 350px;
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important; 
+}
+.eve{
+	margin-top: 20px;
+}
+
+	
+	
+
+.baner{
+	width: 100%;
+	background-color: #7be54e;
+	height: 50px;
+	padding-bottom: 10px;
+	font-family:  'Griffy', cursive;
+	text-align: center;
+	font-size: 30px;
+
+}
+.vapek {
+	width: 24%;
+	height: 600px ; 
+	margin-top: 20px;
+}
+.pas{
+	width: 100%;
+	height: 50px;
+	background-color: #7be54e;
+}
+.lol{
+	width: 900px;
+	height: 656px;
+}
+ul{
+	list-style-type: none;
+	margin-left: 25px;
+	text-align: center;
+
+}
+/*ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+
+}
+li{
+	margin-left: 25px;
+	text-align: center;
+	
+}*/
+.title-cont{
+	width: 100%;
+	height: 85vh;
+	background-image: url('tapeta.png');
+	background-size: cover;
+}
+nav{
+	width: 100%;
+	height:50px;
+	background-color: #141625;
+
+}
+nav ul{
+	color: #fff;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 1;
+	font-size: 18px;
+}
+nav ul li{
+	display: flex;
+	height: 50px;
+	width: 120px;
+	border-left: 1px solid #31365b ;
+	
+}
+nav ul li:hover{
+	background-color: #31365b;
+}
+nav ul li a{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 120px;
+	text-decoration: none;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
